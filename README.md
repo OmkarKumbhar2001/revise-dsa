@@ -25,4 +25,4 @@ Output sum is equal to 15:7,8 and -5,20<br>
 Q5) Given two String,find longest common chracter sequence.<br>
 str1 = "abcdefghik"<br>
 str2 = "aecfghikcs"<br>
-Output ghik<br>
+Output fghik<br>
