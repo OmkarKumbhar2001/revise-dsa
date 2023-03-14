@@ -12,9 +12,9 @@ function splitString(str, N,last_char="i") {
 
 let flag=true;
 let str="abcdefghi";
-let str1="cdefgh";
+let str1="fghi";
 for(let j=str.length;j>=0;j--){
-    let new_arr=splitString("abcdefghi",j,"i");
+    let new_arr=splitString(str,j,str.slice(-1));
     for(let i in new_arr){
         if(new_arr[i]==str1){
         console.log(new_arr[i])
@@ -22,9 +22,8 @@ for(let j=str.length;j>=0;j--){
         break;
         }
     }
-//     console.log(j)
+ 
     if(flag==false){
         break;
     }
 }
-    
