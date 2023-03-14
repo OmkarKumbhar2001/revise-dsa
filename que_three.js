@@ -1,5 +1,5 @@
 const arr1=[7,5,6,1,4,2];
-const arr2=[5,3,1,2];
+const arr2=[5,3,2,8,1];
 function sorted_array(arr){
     let new_sorted_arr=arr.sort((num1,num2)=>{
       return num1-num2;  
@@ -16,8 +16,8 @@ let arr_sort=sorted_array(arr2);
 //     }
 // }
 // new solution
-for(let i=arr_sort[0];i<=arr_sort[arr_sort.length-1];i++){
-    if(arr_sort.includes(i)==false){
+for(let i=1;i<=arr_sort[arr_sort.length-1];i++){
+    if(arr2.includes(i)==false){
         console.log(i)
     }
 }
