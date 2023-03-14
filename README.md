@@ -22,7 +22,7 @@ Note:<br>
 Example arr=[-40,-5,1,3,6,7,8,20]<br>
 Output sum is equal to 15:7,8 and -5,20<br>
 <hr>
-Q5) Given two String,find longest common chracter sequence.
-str1 = "abcdefghik"
-str2 = "aecfghikcs"
-Output ghik
+Q5) Given two String,find longest common chracter sequence.<br>
+str1 = "abcdefghik"<br>
+str2 = "aecfghikcs"<br>
+Output ghik<br>
