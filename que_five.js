@@ -10,20 +10,15 @@ function splitString(str, N,last_char="i") {
   return arr;
 }
 
-let flag=true;
+
 let str="abcdefghi";
 let str1="fghi";
-for(let j=str1.length;j>=0;j--){
-    let new_arr=splitString(str,j,str.slice(-1));
-    for(let i in new_arr){
-        if(new_arr[i]==str1){
-        console.log(new_arr[i])
-        flag=false
-        break;
-        }
+
+let new_arr=splitString(str,str1.length,str.slice(-1));
+for(let i in new_arr){
+   if(new_arr[i]==str1){
+      console.log(new_arr[i])
+      break;
     }
- 
-    if(flag==false){
-        break;
-    }
-}
+ }
+
