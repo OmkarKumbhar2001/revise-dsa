@@ -11,8 +11,8 @@ function splitString(str, N) {
 }
 
 let flag=true;
-let str="abcdefghik";
-let str1="aecfghikcs";
+let str="abcdefghik";//Input One
+let str1="aecfghikcs";//Input Two
 for(let j=str.length;j>=0;j--){
     let new_arr=splitString(str,j);
     // console.log(new_arr)
