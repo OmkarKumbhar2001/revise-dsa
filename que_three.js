@@ -16,7 +16,7 @@ let arr_sort=sorted_array(arr2);
 //     }
 // }
 // new solution
-for(let i=1;i<=arr_sort[arr_sort.length-1];i++){
+for(let i=arr_sort[0];i<=arr_sort[arr_sort.length-1];i++){
     if(arr_sort.includes(i)==false){
         console.log(i)
     }
